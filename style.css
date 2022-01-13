@@ -12,8 +12,8 @@ body{
 
 .head{
   /* background-image: url('images/background.jpg');  */
-  /* background-color: cornsilk; */
-  background-color: #ffffff;
+  background-color: cornsilk;
+  /* background-color: #ffffff; */
   height: 230px;
   display: flex;
   flex-direction: column;
@@ -466,8 +466,8 @@ body{
     height: 490px;
     display: flex;
     flex-direction: column;
-    /* background-color: cornsilk; */
-    background-color: #ffffff;
+    background-color: cornsilk;
+    /* background-color: #ffffff; */
     /* background-size: cover; */
   }
 
