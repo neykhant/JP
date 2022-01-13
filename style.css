@@ -11,13 +11,14 @@ body{
 /* --------------------for head----------------------------- */
 
 .head{
-  /* background-image: url('images/ok.jpeg');  */
+  /* background-image: url('images/background.jpg');  */
   /* background-color: cornsilk; */
   background-color: #ffffff;
-  height: 300px;
+  height: 230px;
   display: flex;
   flex-direction: column;
   /* background-color: red; */
+  /* background-size: cover; */
 }
 
 
@@ -204,7 +205,11 @@ body{
 
 }
 
-
+@media (max-width: 600px){
+  .headMobile {
+    height: 400px;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .foot{
@@ -456,13 +461,14 @@ body{
 
 /* -----------------------------------------head------------------- */
   .headMobile{
-    /* background-image: url('images/ok1.png');  */
+    /* background-image: url('images/background.jpg');  */
     width: 100%; 
-    height: 600px;
+    height: 490px;
     display: flex;
     flex-direction: column;
     /* background-color: cornsilk; */
     background-color: #ffffff;
+    /* background-size: cover; */
   }
 
 .h4Mobile{
@@ -497,7 +503,7 @@ body{
   margin-left: 130px;
   margin-right: 130px;
   margin-top: 130px;
-  background-color: white;
+  /* background-color: white; */
 }
 /* ---------------------------------------------end head---------------- */
 
@@ -1077,6 +1083,7 @@ label{
 }
 
 .columnJapanJP{
+  height: 50%;
 
 }
 
